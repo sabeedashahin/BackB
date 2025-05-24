@@ -5,10 +5,9 @@
   toggleButton.addEventListener('click', () => {
     navMenu.classList.toggle('active');
 
-    // Toggle icon between ☰ and ×
     if (navMenu.classList.contains('active')) {
-      iconSpan.innerHTML = '&times;'; // ×
+      iconSpan.innerHTML = '&times;'; 
     } else {
-      iconSpan.innerHTML = '&#9776;'; // ☰
+      iconSpan.innerHTML = '&#9776;'; 
     }
   });
